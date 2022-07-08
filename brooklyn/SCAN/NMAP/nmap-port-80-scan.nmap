@@ -1,0 +1,8 @@
+# Nmap 7.92 scan initiated Fri Jul  8 18:31:15 2022 as: nmap -sS -p80 -oN /home/kali/Desktop/SCAN/NMAP/nmap-port-80-scan.nmap 10.10.3.99
+Nmap scan report for 10.10.3.99
+Host is up (0.15s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+# Nmap done at Fri Jul  8 18:31:28 2022 -- 1 IP address (1 host up) scanned in 13.42 seconds

@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Fri Jul  8 18:31:28 2022 as: nmap -sS -p1-10000 -T5 -oG /home/kali/Desktop/SCAN/NMAP/grep_open_port_scanner 10.10.3.99
+Host: 10.10.3.99 ()	Status: Up
+Host: 10.10.3.99 ()	Ports: 21/open/tcp//ftp///, 22/open/tcp//ssh///, 80/open/tcp//http///
+# Nmap done at Fri Jul  8 18:33:35 2022 -- 1 IP address (1 host up) scanned in 126.30 seconds
