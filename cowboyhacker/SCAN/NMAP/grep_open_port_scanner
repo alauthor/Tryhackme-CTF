@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Sat Jul  9 18:16:36 2022 as: nmap -sS -p1-10000 -T5 -oG /home/kali/Documents/Tryhackme-CTF/cowboyhacker/SCAN/NMAP/grep_open_port_scanner 10.10.47.187
+Host: 10.10.47.187 ()	Status: Up
+Host: 10.10.47.187 ()	Ports: 20/closed/tcp//ftp-data///, 21/open/tcp//ftp///, 22/open/tcp//ssh///, 80/open/tcp//http///, 990/closed/tcp//ftps///	Ignored State: filtered (9995)
+# Nmap done at Sat Jul  9 18:23:18 2022 -- 1 IP address (1 host up) scanned in 402.01 seconds

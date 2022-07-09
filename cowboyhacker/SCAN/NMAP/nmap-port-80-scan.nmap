@@ -1,0 +1,8 @@
+# Nmap 7.92 scan initiated Sat Jul  9 18:16:22 2022 as: nmap -sS -p80 -oN /home/kali/Documents/Tryhackme-CTF/cowboyhacker/SCAN/NMAP/nmap-port-80-scan.nmap 10.10.47.187
+Nmap scan report for 10.10.47.187
+Host is up (0.083s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+# Nmap done at Sat Jul  9 18:16:35 2022 -- 1 IP address (1 host up) scanned in 13.34 seconds

@@ -1,0 +1,41 @@
+# Nmap 7.92 scan initiated Sat Jul  9 18:40:48 2022 as: nmap -sT -p21,22,80 -T4 -A -sV -O -oN /home/kali/Documents/Tryhackme-CTF/cowboyhacker/SCAN/NMAP/full_scan_result 10.10.47.187
+Nmap scan report for 10.10.47.187
+Host is up (0.12s latency).
+
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 3.0.3
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to ::ffff:10.8.77.235
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 1
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_Can't get directory listing: TIMEOUT
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 dc:f8:df:a7:a6:00:6d:18:b0:70:2b:a5:aa:a6:14:3e (RSA)
+|   256 ec:c0:f2:d9:1e:6f:48:7d:38:9a:e3:bb:08:c4:0c:c9 (ECDSA)
+|_  256 a4:1a:15:a5:d4:b1:cf:8f:16:50:3a:7d:d0:d8:13:c2 (ED25519)
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-title: Site doesn't have a title (text/html).
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.1 (92%), Linux 3.2 (92%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (91%), HP P2000 G3 NAS device (91%), Crestron XPanel control system (90%), Adtran 424RG FTTH gateway (89%), Linux 2.6.32 (89%), Linux 2.6.32 - 3.1 (89%), Linux 2.6.39 - 3.2 (89%), Ubiquiti AirMax NanoStation WAP (Linux 2.6.32) (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT       ADDRESS
+1   134.21 ms 10.8.0.1
+2   132.69 ms 10.10.47.187
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jul  9 18:42:11 2022 -- 1 IP address (1 host up) scanned in 83.55 seconds

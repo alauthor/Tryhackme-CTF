@@ -1,0 +1,2 @@
+/images               (Status: 301) [Size: 313] [--> http://10.10.47.187/images/]
+/index.html           (Status: 200) [Size: 969]
