@@ -24,7 +24,7 @@
 ```bash
 msfconsole
 ```
-<img src="https://github.com/alauthor/Tryhackme-CTF/blob/main/Anonforce/imgs/2022-07-19%2015_22_19-Window.png">
+<img src="https://github.com/alauthor/Tryhackme-CTF/blob/main/cyberheroes/imgs/1.png">
 
 ## STEP-2
 ```bash
@@ -35,5 +35,5 @@ open network tab and start search for `authenticate()` you will find a function 
 username is `h3ck3rBoi` but password needs to get reversed from `54321@terceSrepuS` to `SuperSecret@12345`
 login and you will get the flag 
 ```
-<img src="https://github.com/alauthor/Tryhackme-CTF/blob/main/Anonforce/imgs/2022-07-19%2015_25_08-Window.png">
-<img src="https://github.com/alauthor/Tryhackme-CTF/blob/main/Anonforce/imgs/2022-07-19%2015_23_41-Window.png">
+<img src="https://github.com/alauthor/Tryhackme-CTF/blob/main/cyberheroes/imgs/2.png">
+<img src="https://github.com/alauthor/Tryhackme-CTF/blob/main/cyberheroes/imgs/3.png">
